@@ -1,4 +1,6 @@
-FROM openjdk:17
+FROM openjdk:11
+
+RUN "echo hello"
 
 COPY target/app.jar /usr/app/app.jar
 
